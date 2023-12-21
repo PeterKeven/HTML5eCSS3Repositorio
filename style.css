@@ -29,7 +29,20 @@ body {
 .flex {
 
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+
+}
+
+.botao {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 1, 3em;
+    font-weight: 700;
+    background-color: #c00000;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    border-radius: 25px;
 
 }
 
@@ -59,49 +72,77 @@ header {
 
 }
 
-#check{
+#check {
 
-display: none;
+    display: none;
 
 }
 
-label{
+label {
 
     font-size: 3em;
     padding-right: 15px;
 
 }
 
-nav ul{
+nav ul {
 
-list-style: none;
-background-color: #343538;
-height: 100vh;
-position: fixed;
-top: 60px;
-right: -100%;
-width: 100%;
-transition: all 1s;
+    list-style: none;
+    background-color: #343538;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: all 1s;
 
 }
 
-#check:checked ~ ul {
+#check:checked~ul {
 
     right: 0;
 
 }
 
-nav ul li{
+nav ul li {
 
-padding: 20px;
-border-bottom: 1px solid #a9a9a9;
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
 
 }
 
-nav ul li a{
+nav ul li a {
 
-text-decoration: none;
-color: #fff;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* Destaque */
+
+main {
+
+    height: 75vh;
+    background: url(img/banner.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+main h1 {
+
+    font-size: 2, 5em;
+
+}
+
+main h2 {
+
+    font-size: 1em;
+    margin: 20px 0px 50px 0px;
 
 }
 
@@ -111,6 +152,14 @@ color: #fff;
     /* Layout */
     .container {
         max-width: 540px;
+    }
+
+    /* Destaque */
+
+    main h1, main h2 {
+
+        text-shadow: #000 0.05em 0.05em 0.05em;
+
     }
 
 }
@@ -123,6 +172,25 @@ color: #fff;
         max-width: 720px;
     }
 
+    /* Destaque */
+    main{
+
+        height: 45vh;
+
+    }
+
+    main h1 {
+
+        font-size: 5.5em;
+
+    }
+
+    main h2{
+
+        font-size: 2em;
+
+    }
+
 }
 
 /* Tablet landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -131,6 +199,12 @@ color: #fff;
     /* Layout */
     .container {
         max-width: 960px;
+    }
+
+    main{
+
+        height: 70vh    ;
+
     }
 
 }
@@ -157,13 +231,13 @@ color: #fff;
 
     }
 
-    label{
+    label {
 
         display: none;
 
     }
 
-    nav ul{
+    nav ul {
 
         position: static;
         height: auto;
@@ -171,7 +245,7 @@ color: #fff;
 
     }
 
-    nav ul li{
+    nav ul li {
 
         float: left;
         border: 0;
@@ -179,13 +253,13 @@ color: #fff;
 
     }
 
-    nav ul li a{
+    nav ul li a {
 
         color: #343538;
 
     }
 
-    nav ul li a:hover{
+    nav ul li a:hover {
 
         color: #c00000;
 
