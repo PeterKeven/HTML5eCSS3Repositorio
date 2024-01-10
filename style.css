@@ -40,6 +40,13 @@ body {
 
 }
 
+.flex3 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
 .botao {
 
     text-decoration: none;
@@ -198,6 +205,34 @@ padding: 0px 10px;
 
 }
 
+/* OnePage */
+
+#onepage {
+
+    padding: 50px 10px;
+
+}
+
+#onepage h2 {
+
+    margin-bottom: 10px;
+
+}
+
+#onepage p {
+
+    margin-bottom: 25px;
+
+}
+
+#video iframe {
+
+    width: 340px;
+    height: 191px;
+    border: 0;
+
+}
+
 /* Smartphone landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
 
@@ -213,6 +248,15 @@ padding: 0px 10px;
         text-shadow: #000 0.05em 0.05em 0.05em;
 
     }
+
+    /* OnePage */
+
+#video iframe {
+
+    width: 560px;
+    height: 315px;
+
+}
 
 }
 
@@ -337,6 +381,13 @@ padding: 0px 10px;
 
         border-radius: 50%;
         margin-right: 50px;
+
+    }
+
+    .flex3 {
+
+        flex-direction: row;
+        align-items: center;
 
     }
 
