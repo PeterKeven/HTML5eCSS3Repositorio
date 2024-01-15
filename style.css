@@ -233,6 +233,47 @@ padding: 0px 10px;
 
 }
 
+/* Wireframe */
+#Wireframe {
+
+    padding: 50px 0px;
+    background: url(IMG/background.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#textowire {
+
+    color: #fff;
+    padding: 0px 10px;
+
+}
+
+#textowire h2 {
+
+    margin-bottom: 10px;
+
+}
+
+#textowire p {
+
+    margin-bottom: 40px;
+
+}
+
+#textowire span {
+
+    display: none;
+
+}
+
+#qrcode {
+
+    display: none;
+
+}
+
 /* Smartphone landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
 
@@ -388,6 +429,33 @@ padding: 0px 10px;
 
         flex-direction: row;
         align-items: center;
+
+    }
+
+    /* Wireframe */
+    
+    #Wireframe {
+
+        background-attachment: fixed;
+
+    }
+
+    #textowire span {
+
+        display: inline;
+
+    }
+
+    #qrcode {
+
+        display: inline;
+
+    }
+
+    #qrcode img {
+
+        width: 225px;
+        height: 225px;
 
     }
 
