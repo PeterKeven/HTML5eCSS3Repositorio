@@ -47,6 +47,14 @@ body {
 
 }
 
+.flex4 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
 .botao {
 
     text-decoration: none;
@@ -68,6 +76,47 @@ body {
     bottom: 10px;
 
 }
+
+/* Cartões */
+.card {
+
+    margin-top: 25px;
+    width: 338px;
+    height: 520px;
+    background-color: #e8e8e8;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.card img{
+
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.card h3 {
+
+    margin-top: 15px;
+
+}
+
+.card p {
+
+    text-align: left;
+    color: #434343;
+    padding: 10px 30px 50px 30px;
+
+}
+
+.card a {
+
+    padding: 10px 100px;
+
+}
+
+
 
 /* Smartphone portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -274,6 +323,36 @@ padding: 0px 10px;
 
 }
 
+/* Conteudo */
+#conteudo {
+
+    padding: 50px 0px;
+
+}
+
+#conteudo h2 {
+
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+#todos {
+
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#todos a {
+
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25em;
+
+}
+
 /* Smartphone landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
 
@@ -458,5 +537,6 @@ padding: 0px 10px;
         height: 225px;
 
     }
+
 
 }
